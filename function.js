@@ -119,3 +119,52 @@ const printForecast = function (arr) {
 };
 
 printForecast(testData1);
+
+const color = 24;
+
+if (color === 24) {
+  console.log("Yellow");
+} else if (color > 24) {
+  console.log("Red");
+} else {
+  console.log("Green");
+}
+
+const number = 19;
+
+if (number % 2 === 0) {
+  console.log(`${number} is even`);
+} else {
+  console.log(`${number} is odd`);
+}
+
+const foodStuff = ["pepper", "salt", "maggi", "bay leaf", "tomatoes"];
+
+console.log(foodStuff.push("ginger"));
+console.log(foodStuff);
+
+console.log(foodStuff.unshift("water"));
+console.log(foodStuff);
+
+console.log(foodStuff.pop());
+console.log(foodStuff);
+
+console.log(foodStuff.shift());
+console.log(foodStuff);
+
+console.log(foodStuff.indexOf("bay leaf"));
+console.log(foodStuff);
+
+console.log(foodStuff.includes("garlic"));
+
+// console.log(foodStuff.reverse());
+
+// SLICE
+console.log(foodStuff.slice(1, 5));
+// SPLICE
+console.log(foodStuff.splice(1, 5));
+
+const numbers = [23, 5, 13, 80, 10, 25, 6];
+console.log(numbers);
+const ans = numbers.map((scores) => scores * 2);
+console.log(ans);
